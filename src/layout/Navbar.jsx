@@ -12,10 +12,10 @@ const Navbar = () => {
         {/* Nav Links - Positioned to center-right */}
         <div className="hidden lg:flex flex-grow justify-center pl-32">
           <div className="flex items-center space-x-12 text-sm font-bold text-gray-400">
-            <a href="#" className="text-white">Home</a>
-            <a href="#" className="hover:text-white transition-colors">Membership</a>
-            <a href="#" className="hover:text-white transition-colors">Team</a>
-            <a href="#" className="hover:text-white transition-colors">About Us</a>
+            <a href="#home" className="text-white">Home</a>
+            <a href="#services" className="hover:text-white transition-colors">Membership</a>
+            <a href="#workouts" className="hover:text-white transition-colors">Team</a>
+            <a href="#testimonials" className="hover:text-white transition-colors">About Us</a>
           </div>
         </div>
 

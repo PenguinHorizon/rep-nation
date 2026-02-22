@@ -11,11 +11,11 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-[#111418] text-white">
       <Navbar />
-      <Hero />
+      <div id="home"><Hero /></div>
       <Counters />
-      <Services />
-      <Workouts />
-      <Testimonials />
+      <div id="services"><Services /></div>
+      <div id="workouts"><Workouts /></div>
+      <div id="testimonials"><Testimonials /></div>
       {/* Additional sections can be added here */}
       <Footer />
     </div>
