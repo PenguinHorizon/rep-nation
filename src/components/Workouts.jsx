@@ -29,8 +29,8 @@ const Workouts = () => {
 
           {/* Right Side: Content */}
           <div className="flex-1 space-y-8">
-            <h2 className="text-white text-5xl md:text-6xl font-bold leading-tight">
-              For free, you can <br />
+            <h2 className="text-white text-3xl md:text-6xl font-bold leading-tight">
+              For free, you can <br className="hidden md:block" />
               work out at home
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed max-w-lg">
@@ -57,8 +57,8 @@ const Workouts = () => {
 
           {/* Left Side: Content */}
           <div className="flex-1 space-y-8">
-            <h2 className="text-white text-5xl md:text-6xl font-bold leading-tight">
-              With us, you can start <br />
+            <h2 className="text-white text-3xl md:text-6xl font-bold leading-tight">
+              With us, you can start <br className="hidden md:block" />
               your health journey
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed max-w-lg">

@@ -2,10 +2,10 @@ import React from 'react';
 
 const ServiceItem = ({ title, image }) => {
   return (
-    <div className="group flex items-center justify-between py-8 border-b border-gray-800 cursor-pointer hover:bg-white/5 transition-all duration-300">
-      <div className="flex items-center gap-12">
+    <div className="group flex items-center justify-between py-6 md:py-8 border-b border-gray-800 cursor-pointer hover:bg-white/5 transition-all duration-300">
+      <div className="flex items-center gap-4 md:gap-12">
         {/* Thumbnail */}
-        <div className="w-40 h-24 overflow-hidden rounded-sm grayscale group-hover:grayscale-0 transition-all duration-500">
+        <div className="w-24 h-16 md:w-40 md:h-24 overflow-hidden rounded-sm grayscale group-hover:grayscale-0 transition-all duration-500 flex-shrink-0">
           <img 
             src={image} 
             alt={title} 
@@ -13,16 +13,16 @@ const ServiceItem = ({ title, image }) => {
           />
         </div>
         {/* Title */}
-        <h3 className="text-white text-3xl font-bold tracking-wider uppercase">
+        <h3 className="text-white text-lg md:text-3xl font-bold tracking-wider uppercase">
           {title}
         </h3>
       </div>
 
       {/* Diagonal Arrow */}
-      <div className="text-[#e67e22] transform group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-300">
+      <div className="text-[#e67e22] transform group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 flex-shrink-0">
         <svg 
           viewBox="0 0 24 24" 
-          className="w-10 h-10"
+          className="w-6 h-6 md:w-10 md:h-10"
           fill="none" 
           stroke="currentColor" 
           strokeWidth="2.5" 
