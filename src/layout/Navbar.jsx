@@ -5,17 +5,24 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home', number: '01' },
-    { name: 'Membership', href: '#services', number: '02' },
-    { name: 'Team', href: '#workouts', number: '03' },
-    { name: 'About Us', href: '#testimonials', number: '04' },
+    { name: 'Services', href: '#services', number: '02' },
+    { name: 'Work Out', href: '#workouts', number: '03' },
+    { name: 'Testimonials', href: '#testimonials', number: '04' },
   ];
 
   return (
     <nav className="absolute top-0 w-full z-50 px-8 py-10">
       <div className="max-w-[1400px] mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-white text-3xl font-black tracking-tighter cursor-pointer">
-          Fitted
+        <div className="flex items-center space-x-3 cursor-pointer group">
+          <div className="w-10 h-10 bg-blue-800 rounded-lg flex items-center justify-center shadow-lg shadow-[#e67e22]/20 transition-transform group-hover:scale-110">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <div className="text-white text-3xl font-black tracking-tighter">
+            Rep Nation
+          </div>
         </div>
         
         {/* Desktop Nav Links */}
@@ -76,7 +83,7 @@ const Navbar = () => {
           {/* Vertical Menu Label */}
           <div className="absolute left-8 top-1/2 -translate-y-1/2 hidden sm:block">
              <span className="[writing-mode:vertical-lr] rotate-180 text-gray-700 uppercase tracking-[0.5em] text-[10px] font-black">
-               Fitted Navigation
+               Rep Nation Navigation
              </span>
           </div>
 
