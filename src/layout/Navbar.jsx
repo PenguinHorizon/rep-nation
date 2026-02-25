@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="max-w-[1400px] mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-3 cursor-pointer group">
-          <div className="w-10 h-10 bg-[#e67e22] rounded-lg flex items-center justify-center shadow-lg shadow-[#e67e22]/20 transition-transform group-hover:scale-110">
+          <div className="w-10 h-10 bg-blue-800 rounded-lg flex items-center justify-center shadow-lg shadow-[#e67e22]/20 transition-transform group-hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
