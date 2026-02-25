@@ -31,7 +31,14 @@ const Footer = () => {
           
           {/* Logo and Socials */}
           <div className="space-y-10">
-            <h2 className="text-white text-3xl font-black tracking-tighter">Fitted</h2>
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-[#e67e22] rounded-lg flex items-center justify-center shadow-lg shadow-[#e67e22]/20">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h2 className="text-white text-3xl font-black tracking-tighter">Rep Nation</h2>
+            </div>
             <div className="flex items-center space-x-6">
               {/* Social Icons Placeholder (Circular) */}
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#e67e22] flex items-center justify-center transition-all duration-300">
@@ -65,7 +72,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-gray-500 text-xs tracking-widest uppercase">
-          <p>© 2024 FITTED. ALL RIGHTS RESERVED.</p>
+          <p>© 2024 REP NATION. ALL RIGHTS RESERVED.</p>
           <div className="flex space-x-8">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
             <a href="#" className="hover:text-white transition-colors">Terms</a>
